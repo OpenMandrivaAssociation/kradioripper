@@ -1,6 +1,6 @@
 Summary:	Ripping internet radios
 Name:		kradioripper
-Version: 	0.4.1
+Version: 	0.5
 Release: 	%mkrel 1
 Source0: 	http://downloads.sourceforge.net/kradioripper/%{name}-%{version}.tar.bz2
 License: 	GPLv2
@@ -28,6 +28,7 @@ StreamRipper.
 %_kde_bindir/*
 %_kde_datadir/applications/kde4/*.desktop
 %_kde_appsdir/%name
+%_kde_datadir/config.kcfg/*.kcfg
 
 #--------------------------------------------------------------------
 
