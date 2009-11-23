@@ -8,6 +8,7 @@ Group: 		Sound
 Url: 		http://kradioripper.sourceforge.net/
 BuildRoot: 	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires: 	kdelibs4-devel
+BuildRequires:	libproxy-devel
 Requires:	streamripper >= 1.63
 
 %description 
