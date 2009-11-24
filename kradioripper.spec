@@ -8,7 +8,7 @@ Group: 		Sound
 Url: 		http://kradioripper.sourceforge.net/
 BuildRoot: 	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires: 	kdelibs4-devel
-BuildRequires:	libproxy-devel
+#BuildRequires:	libproxy-devel
 Requires:	streamripper >= 1.63
 
 %description 
@@ -25,7 +25,7 @@ StreamRipper.
 
 %files -f %name.lang
 %defattr(-,root,root)
-%doc NEWS TODO
+%doc NEWS
 %_kde_bindir/*
 %_kde_datadir/applications/kde4/*.desktop
 %_kde_appsdir/%name
@@ -37,7 +37,7 @@ StreamRipper.
 %setup -q -n %name
 
 %build
-%cmake_kde4
+%cmake_kde4 -DWITHOUT_LIBPROXY=YES
 %make
 
 %install
