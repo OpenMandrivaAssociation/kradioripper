@@ -48,3 +48,25 @@ rm -rf %{buildroot}
 
 %clean
 rm -rf %{buildroot}
+
+
+%changelog
+* Mon Dec 06 2010 Oden Eriksson <oeriksson@mandriva.com> 0.6-2mdv2011.0
++ Revision: 612667
+- the mass rebuild of 2010.1 packages
+
+* Tue Nov 24 2009 Funda Wang <fwang@mandriva.org> 0.6-1mdv2010.1
++ Revision: 469409
+- drop proxy support as there are some linkging problems regarding current libproxy 0.2.3
+- BR proxy
+- new version 0.6
+
+* Sat May 02 2009 Funda Wang <fwang@mandriva.org> 0.5-1mdv2010.0
++ Revision: 370543
+- New version 0.5
+
+* Sat Oct 11 2008 Funda Wang <fwang@mandriva.org> 0.4.1-1mdv2009.1
++ Revision: 292023
+- import kradioripper
+
+
