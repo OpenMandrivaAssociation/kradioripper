@@ -1,7 +1,7 @@
 Summary:	Ripping internet radios
 Name:		kradioripper
 Version:	0.6
-Release:	3
+Release:	4
 License:	GPLv2+
 Group:		Sound
 Url:		http://kradioripper.sourceforge.net/
