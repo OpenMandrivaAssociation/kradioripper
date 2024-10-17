@@ -4,7 +4,7 @@ Version:	0.6
 Release:	4
 License:	GPLv2+
 Group:		Sound
-Url:		http://kradioripper.sourceforge.net/
+Url:		https://kradioripper.sourceforge.net/
 Source0:	http://downloads.sourceforge.net/kradioripper/%{name}-%{version}.tar.bz2
 BuildRequires:	kdelibs4-devel
 Requires:	streamripper >= 1.63
